@@ -2,7 +2,21 @@
 
 > **Liberia's Premium Ride-Sharing Platform.**
 
-LehGo is a modern ride-sharing solution tailored for the Liberian market, featuring a real-time mobile app for riders and drivers, and a high-performance backend system.
+LehGo is a modern ride-sharing solution tailored for the Liberian market, designed to connect riders with Cars, **Kekehs**, and **Pen-Pens** through a seamless, real-time mobile interface.
+
+---
+
+## 🏗 Built for Liberia
+
+LehGo isn't just another ride-hailing app; it's engineered specifically for the local context.
+
+- **🤑 The Haggle Engine**: Negotiate fair prices in real-time. Drivers can counter-offer, and riders can accept or decline, mimicking the traditional bargaining culture.
+- **🛺 All Vehicle Types**: Full support for the unique transport ecosystem:
+  - **Cars** (Taxi / Private)
+  - **Kekehs** (Tricycles)
+  - **Pen-Pens** (Motorbikes)
+- **⚡ Low-Data Optimization**: Uses **MQTT** for lightweight, real-time communication, ensuring the app performs reliably even on 2G/3G networks.
+- **📍 Local Address Handling**: Optimized for local landmarks and dynamic location sharing.
 
 ---
 
@@ -52,7 +66,7 @@ LehGo uses **MQTT** (Message Queuing Telemetry Transport) for efficient, low-lat
 
 ### Geolocation
 
-The backend leverages **PostGIS** to perform efficient spatial queries, such as "find all drivers within 5km of this pickup point."
+The backend leverages **PostGIS** to perform efficient spatial queries, such as "find all Kekehs within 2km of this pickup point."
 
 ---
 
