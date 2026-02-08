@@ -1,22 +1,24 @@
-# LehGo 🇱🇷
+# LehGo 🚗
 
-> **Liberia's Premium Ride-Sharing Platform.**
+> **A Modern, Scalable Ride-Sharing Platform.**
 
-LehGo is a modern ride-sharing solution tailored for the Liberian market, designed to connect riders with Cars, **Kekehs**, and **Pen-Pens** through a seamless, real-time mobile interface.
+LehGo is a comprehensive ride-sharing solution designed for emerging markets, featuring a real-time mobile app for riders and drivers, and a high-performance backend system.
+
+It is built to handle diverse vehicle types and unique market dynamics, such as price negotiation and low-bandwidth environments.
 
 ---
 
-## 🏗 Built for Liberia
+## 🏗 Key Features
 
-LehGo isn't just another ride-hailing app; it's engineered specifically for the local context.
+LehGo is engineered to be flexible and robust:
 
-- **🤑 The Haggle Engine**: Negotiate fair prices in real-time. Drivers can counter-offer, and riders can accept or decline, mimicking the traditional bargaining culture.
-- **🛺 All Vehicle Types**: Full support for the unique transport ecosystem:
+- **🤑 The Haggle Engine**: Negotiate fair prices in real-time. Drivers can counter-offer, and riders can accept or decline, empowering users with pricing control.
+- **🛺 Multi-Vehicle Support**: Designed to support various transport modes beyond just cars:
   - **Cars** (Taxi / Private)
-  - **Kekehs** (Tricycles)
-  - **Pen-Pens** (Motorbikes)
+  - **Auto-Rickshaws** (Tricycles / Tuk-Tuks)
+  - **Motorbikes** (Moto-Taxis)
 - **⚡ Low-Data Optimization**: Uses **MQTT** for lightweight, real-time communication, ensuring the app performs reliably even on 2G/3G networks.
-- **📍 Local Address Handling**: Optimized for local landmarks and dynamic location sharing.
+- **📍 Dynamic Location Handling**: Optimized for regions where formal addresses may be inconsistent.
 
 ---
 
@@ -66,7 +68,7 @@ LehGo uses **MQTT** (Message Queuing Telemetry Transport) for efficient, low-lat
 
 ### Geolocation
 
-The backend leverages **PostGIS** to perform efficient spatial queries, such as "find all Kekehs within 2km of this pickup point."
+The backend leverages **PostGIS** to perform efficient spatial queries, such as "find all drivers within 2km of this pickup point."
 
 ---
 
